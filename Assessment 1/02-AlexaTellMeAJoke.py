@@ -48,6 +48,7 @@ pl_button.place(x = 10, y = 325)
 qt_button = Button(joke, text = "Quit?", command = joke.quit, font = ("Arial Rounded MT Bold", 15), fg = "#4682B4", bd = 5) # Quit button that closes the program
 qt_button.place(x = 10, y = 500)
 
-ongoing_joke = None # Initializes stores the current joke during the session
+ongoing_joke = None # Initializes and stores the current joke during the session
+
 
 joke.mainloop() # Runs the main window
